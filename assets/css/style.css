@@ -1,0 +1,13 @@
+form {
+	margin-top: 10px;
+}
+.creature {
+	margin: 5px 5px 0 5px;
+}
+div .item {
+	display: inline-block;
+	padding: 10px 10px 0 0;
+}
+div #creature-gifs {
+	padding-bottom: 15px;
+}

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var topics = ["unicorn", "chupacabra", "rougarou", "vampire", "werewolf", "poltergeist", "ghoul", "ghost", "vampire", "djinn", "wendigo", "phoenix", "dragon", "skin-walker", "fae", "zombie", "banshee"];
+	var topics = ["unicorn", "chupacabra", "werewolf", "poltergeist", "ghost", "vampire", "wendigo", "phoenix", "dragon", "fairy", "zombie"];
 
 	function loadButtons() {
 		$("#creature-buttons").empty();
@@ -23,7 +23,6 @@ $(document).ready(function() {
 			method: "GET"
 		})
 		.done(function(response) {
-			console.log(response);
 			var results = response.data;
 			$.each(results, function(index, value) {
 				var rating = results[index].rating;
