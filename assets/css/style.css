@@ -1,3 +1,7 @@
+body {
+	background-color: #ededed;
+	background: url(../images/concrete_seamless/concrete_seamless.png);
+}
 form {
 	margin-top: 10px;
 }
@@ -11,3 +15,23 @@ div .item {
 div #creature-gifs {
 	padding-bottom: 15px;
 }
+.btn-primary {
+	background-image: none;
+	background-color: #40b1b1;
+	border-color: #0e9999;
+}
+/*
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+    outline-offset: -2px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
+*/

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var topics = ["unicorn", "chupacabra", "werewolf", "poltergeist", "ghost", "vampire", "wendigo", "phoenix", "dragon", "fairy", "zombie"];
+	var topics = ["demon", "unicorn", "chupacabra", "werewolf", "poltergeist", "goblin", "ghost", "vampire", "wendigo", "phoenix", "dragon", "fairy", "zombie", "yokai", "mermaid", "elf"];
 
 	function loadButtons() {
 		$("#creature-buttons").empty();
